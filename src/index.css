@@ -1,0 +1,12 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Optional: Ensure body height and width are 100% */
+html, body {
+    height: 100%;
+    width: 100%;
+}

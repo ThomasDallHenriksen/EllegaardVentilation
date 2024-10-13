@@ -1,0 +1,149 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  padding: 15px 100px;
+
+  @media (max-width: 1024px) {
+      padding: 15px 50px;
+  }
+
+  @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 30px;
+  }
+
+  @media (max-width: 480px) {
+      padding: 20px 20px;
+  }
+}
+
+.footer-column {
+  color: #aaa;
+  flex: 1;
+  padding: 10px;
+
+  @media (max-width: 768px) {
+      padding: 10px 0;
+      text-align: center;
+  }
+}
+
+.footer-column h3 {
+  border-bottom: 2px solid #444;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+
+  @media (max-width: 768px) {
+      padding-bottom: 5px;
+      margin-bottom: 5px;
+  }
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 5px 0;
+
+  @media (max-width: 768px) {
+      margin: 8px 0;
+  }
+}
+
+.footer-column ul li a {
+  color: #aaa;
+  text-decoration: none;
+
+  &:hover {
+      color: white;
+  }
+}
+
+.footer-flex {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 480px) {
+      justify-content: center;
+      margin-bottom: 10px;
+  }
+}
+
+.footer__link {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+
+  @media (max-width: 768px) {
+      font-size: 18px;
+  }
+
+  @media (max-width: 480px) {
+      font-size: 16px;
+      margin: 5px 0;
+  }
+
+  &--facebook {
+      &:hover {
+          color: #e5312d;
+      }
+  }
+
+  &--linkedin {
+      margin-left: 10px;
+
+      @media (max-width: 480px) {
+          margin-left: 5px;
+      }
+
+      &:hover {
+          color: #e5312d;
+      }
+  }
+}
+
+.footer__phone-icon, .footer__mail-icon {
+  margin-right: 10px;
+
+  @media (max-width: 480px) {
+      margin-right: 5px;
+  }
+}
+
+.footer__info {
+  margin-right: 40px;
+  font-size: 14px;
+  color: #aaa;
+
+  @media (max-width: 768px) {
+      margin-right: 20px;
+      font-size: 13px;
+  }
+
+  @media (max-width: 480px) {
+      margin-right: 0;
+      font-size: 12px;
+      text-align: center;
+      margin-bottom: 5px;
+  }
+}
+
+.footerLogo {
+  border-radius: 25px;
+  width: 350px;
+
+  @media (max-width: 768px) {
+      width: 250px;
+      margin-bottom: 20px;
+  }
+
+  @media (max-width: 480px) {
+      width: 200px;
+      margin-bottom: 15px;
+  }
+}
