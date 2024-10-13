@@ -1,3 +1,3 @@
 This is a presentation website for the company Ellegaard ventilation
 
-![Uploading image.png…]()
+![Scenic View from the Rooftop](public/galleri/galleri7)
