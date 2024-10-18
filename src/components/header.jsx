@@ -17,7 +17,7 @@ export default function Header() {
                 </div>
                 <div className='header__info'>
                     <a href="mailto:Kris@ellegaardventilation.dk" className="header__email-link">
-                        Kris@ellegaardventilation.dk
+                        kris@ellegaardventilation.dk
                     </a>
                 </div>
             </div>
