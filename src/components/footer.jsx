@@ -17,6 +17,7 @@ export default function Footer() {
         <ul>
                 <li><Link to="/">Forside</Link></li>
                 <li><Link to="/galleri">Galleri</Link></li>
+                <li><Link to="/about">Hvem er vi</Link></li>
         </ul>
       </div>
       <div className="footer-column">

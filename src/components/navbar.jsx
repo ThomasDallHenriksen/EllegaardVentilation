@@ -11,15 +11,15 @@ export default function Navbar() {
                 <img className="logoImg" src="/images/ellegaardVenLogoClean-transparrent-bagground.png" alt="Logo" />
             </Link>
             <div className="nav-buttons">
-                {location.pathname !== '/galleri' && (
-                    <Link to="/galleri">
-                        <button className="navLinks">Galleri</button>
-                    </Link>
-                )}
-                {location.pathname !== '/galleri' && (
-                <Link to="">
-                    <button className="navLinks">Hvem er vi</button>
-                </Link>
+                {location.pathname === '/' && (
+                    <>
+                        <Link to="/galleri">
+                            <button className="navLinks">Galleri</button>
+                        </Link>
+                        <Link to="/about">
+                            <button className="navLinks">Hvem er vi</button>
+                        </Link>
+                    </>
                 )}
             </div>
         </nav>
