@@ -1,6 +1,6 @@
 # Ellegaard Ventilation
 
-##This is a presentation website for the company Ellegaard ventilation
+## This is a presentation website for the company Ellegaard ventilation
 
 https://ellegaard-ventilation.web.app/
 
